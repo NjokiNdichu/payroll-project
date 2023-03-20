@@ -1,0 +1,41 @@
+
+.results{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.9);
+    border-radius: 5px;
+    height: 70vh;
+}
+.kes-btn{
+    margin-left: 30px;
+    width:100%;
+    text-align: center;
+    border:none;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.enter{
+    width:70%;
+    border-radius: 5px;
+    border-color: grey;
+    border-top-color: grey;
+    
+}
+.calc-btn{
+    width:auto;
+    color: black;
+    background-color: orangered;
+    border-radius: 5px;
+    
+    border-color: green;
+    margin-left: -30px;
+}
+.row.input-data{
+    margin-top: 40px;
+    padding-top: 20px;
+    border-bottom: solid grey;
+    padding-bottom: 20px;
+}
+.container.pointers{
+    margin-top:40px;
+    
+}

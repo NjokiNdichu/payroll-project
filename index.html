@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payroll Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="payroll logo (1).png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            <span>Pay</span><span clas="logo-2">roll</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><h1>NET PAY CALCULATOR</h1></div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Enter the gross salary amount below to calculate your net pay</div>
+        </div>
+    </div>
+    <div class="container results">
+        <div class="row input-data">
+            <div class="col-lg-1 col-md-2 col-sm-2 col-2">
+                <button class="kes-btn" id="currency">KES</button>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-7 col-7">
+                <input class="enter" id="sal" type="text">
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                <button class="calc-btn" id="calc" onclick="cal()">Calculate</button>
+            </div>
+        </div>
+        <div class="container pointers">
+            <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col">Description</th>
+                    <th scope="col">Results</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Base Salary</td>
+                    <td id="base"></td>
+                  </tr>
+                  <tr>
+                    <td>NSSF tier 1</td>
+                    <td id="nssf1"></td>
+                  </tr>
+                  <tr>
+                    <td>NSSF tier 2</td>
+                    <td id="nssf2"></td>
+                  </tr>
+                  <tr>
+                    <td>Final P.A.Y.E</td>
+                    <td id="paye"></td>
+                  </tr>
+                  <tr>
+                    <td>NHIF</td>
+                    <td id="nhif"></td>
+                  </tr>
+                  <tr>
+                    <td>Net pay</td>
+                    <td id="net-sal"></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> 
+    <script src="index.js"></script> 
+</body>
+</html>
